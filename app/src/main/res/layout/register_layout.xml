@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edt_email"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        app:met_iconRight="@drawable/ic_email"
+        app:met_primaryColor="@color/myTextColor"
+        app:met_baseColor="@color/myTextColor"
+        app:met_textColorHint="@color/myTextColor"
+        app:met_iconPadding="0dp"
+        />
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/username"
+        android:hint="Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        app:met_iconRight="@drawable/ic_email"
+        app:met_primaryColor="@color/myTextColor"
+        app:met_baseColor="@color/myTextColor"
+        app:met_textColorHint="@color/myTextColor"
+        app:met_iconPadding="0dp"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edt_password"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        app:met_iconRight="@drawable/ic_email"
+        app:met_primaryColor="@color/myTextColor"
+        app:met_baseColor="@color/myTextColor"
+        app:met_textColorHint="@color/myTextColor"
+        app:met_iconPadding="0dp"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edt_password_conf"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        app:met_iconRight="@drawable/ic_email"
+        app:met_primaryColor="@color/myTextColor"
+        app:met_baseColor="@color/myTextColor"
+        app:met_textColorHint="@color/myTextColor"
+        app:met_iconPadding="0dp"
+        />
+
+    <Button
+        android:id="@+id/addUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+</LinearLayout>
